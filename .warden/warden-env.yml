@@ -1,0 +1,13 @@
+version: "3.5"
+services:
+  nginx:
+    environment:
+      - NGINX_PUBLIC=/pub
+
+  php-fpm:
+    extra_hosts:
+      - ${MC_SUBDOMAIN}.${MC_DOMAIN}:${TRAEFIK_ADDRESS:-0.0.0.0}
+
+  php-debug:
+    extra_hosts:
+      - ${MC_SUBDOMAIN}.${MC_DOMAIN}:${TRAEFIK_ADDRESS:-0.0.0.0}

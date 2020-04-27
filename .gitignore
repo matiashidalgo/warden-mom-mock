@@ -1,0 +1,17 @@
+*
+!/.gitignore
+!/app
+!/app/**
+!/pub
+!/pub/**
+!/setup
+!/setup/**
+!/.warden
+!/.warden/**
+!/auth.json
+!/build_options.ini
+!/composer.json
+!/composer.lock
+!/README.md
+!/.github
+!/.github/*
