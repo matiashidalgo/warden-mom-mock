@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e70dd08adf2d4e37cff75d51a46a6fb3",
+    "content-hash": "3bc043caacbbe1b4fe6e57f782aab88c",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -834,16 +834,16 @@
         },
         {
             "name": "twbs/bootstrap",
-            "version": "v4.1.1",
+            "version": "v4.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "779ad9f174ea5ab7e755f6df0ec9e5912d67dd16"
+                "reference": "8fa0d3010112dca5dd6dd501173415856001ba8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/779ad9f174ea5ab7e755f6df0ec9e5912d67dd16",
-                "reference": "779ad9f174ea5ab7e755f6df0ec9e5912d67dd16",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/8fa0d3010112dca5dd6dd501173415856001ba8b",
+                "reference": "8fa0d3010112dca5dd6dd501173415856001ba8b",
                 "shasum": ""
             },
             "replace": {
@@ -881,7 +881,11 @@
                 "sass",
                 "web"
             ],
-            "time": "2018-04-30T16:04:33+00:00"
+            "support": {
+                "issues": "https://github.com/twbs/bootstrap/issues",
+                "source": "https://github.com/twbs/bootstrap/tree/v4.3.1"
+            },
+            "time": "2019-02-13T16:01:40+00:00"
         },
         {
             "name": "twig/twig",
@@ -956,6 +960,9 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": []
+    "platform": {
+        "ext-json": "*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
 }
